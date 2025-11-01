@@ -2,16 +2,13 @@
    margin: 0;
    padding: 0;
  }
-
  .body {
    width: 593.0780639648438;
    height: 1516.467529296875;
    top: 215px;
    left: 301px;
    color: #FFFFFF;
-
  }
-
  .first {
    color: #F5F5F5;
    background-color: #F5F5F5;
@@ -22,7 +19,6 @@
    border: #F5F5F5;
    margin: 50px;
  }
-
  .left #id {
    color: #545BE8;
    line-height: 50px;
@@ -110,6 +106,14 @@
    position: absolute;
    border: 0.62px;
  }
+
+ .button {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start; 
+  gap: 30px; 
+  margin-top: 30px;
+}
 
  .second {
 
@@ -324,133 +328,139 @@
    margin: 0;
    line-height: 1.3;
  }
+.third {
+    position: relative;
+    background: linear-gradient(90deg, #545be8 0%, #2a2f99 100%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 100px;
+    border-radius: 20px;
+    overflow: hidden;
+}
 
- .third {
-   position: relative;
-   background: linear-gradient(90deg, #545be8 0%, #2a2f99 100%);
-   color: #ffffff;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   padding: 80px 100px;
-   border-radius: 20px;
-   overflow: hidden;
- }
+.third #yy {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background-color: #f5b400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
 
- .third #yy {
-   width: 260px;
-   height: 260px;
-   border-radius: 50%;
-   background-color: #f5b400;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   overflow: hidden;
-   position: relative;
- }
+.third #yy img {
+    width: 220px;
+    border-radius: 10px;
+}
 
- .third #yy img {
-   width: 220px;
-   border-radius: 10px;
- }
+.third #aa,
+.third #bb,
+.third #cc,
+.third #dd,
+.third #ee,
+.third #ff,
+.third #gg,
+.third #hh,
+.third #ii {
+    position: absolute;
+    border-radius: 50%;
+}
 
- .third #aa,
- .third #bb,
- .third #cc,
- .third #dd,
- .third #ee,
- .third #ff,
- .third #gg,
- .third #hh,
- .third #ii {
-   position: absolute;
-   border-radius: 50%;
- }
+.third #aa {
+    width: 40px;
+    height: 40px;
+    background-color: #fe753f;
+    top: 100px;
+    left: 300px;
+}
 
- .third #aa {
-   width: 40px;
-   height: 40px;
-   background-color: #fe753f;
-   top: 100px;
-   left: 300px;
- }
+.third #bb {
+    width: 25px;
+    height: 25px;
+    background-color: #ffffff;
+    top: 120px;
+    left: 200px;
+}
 
- .third #bb {
-   width: 25px;
-   height: 25px;
-   background-color: #ffffff;
-   top: 120px;
-   left: 200px;
- }
+.third #cc {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    top: 200px;
+    left: 150px;
+}
 
- .third #cc {
-   width: 10px;
-   height: 10px;
-   background-color: #ffffff;
-   top: 200px;
-   left: 150px;
- }
+.third #dd {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    top: 320px;
+    left: 360px;
+}
 
- .third #dd {
-   width: 10px;
-   height: 10px;
-   background-color: #ffffff;
-   top: 320px;
-   left: 360px;
- }
+.third #ee {
+    width: 25px;
+    height: 25px;
+    background-color: #ffffff;
+    top: 350px;
+    left: 100px;
+}
 
- .third #ee {
-   width: 25px;
-   height: 25px;
-   background-color: #ffffff;
-   top: 350px;
-   left: 100px;
- }
+.third #jj {
+    max-width: 400px;
+    position: absolute;
+}
 
+.third p {
+    color: #ffce48;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
 
- .third #jj {
-   max-width: 400px;
- }
+.third h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: right;
+}
 
- .third p {
-   color: #ffce48;
-   font-weight: 600;
-   letter-spacing: 1px;
-   margin-bottom: 10px;
- }
+.third p {
+    font-size: 15px;
+    color: #ddd;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    text-align: right;
+}
 
- .third h2 {
-   font-size: 40px;
-   font-weight: 700;
-   margin-bottom: 20px;
- }
+.third {
+    display: flex;
+    gap: 30px;
+    text-align: right;
+}
 
- .third p {
-   font-size: 15px;
-   color: #ddd;
-   line-height: 1.7;
-   margin-bottom: 30px;
- }
+.third h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: right;
+}
 
- .third {
-   display: flex;
-   gap: 30px;
- }
-
- .third h4 {
-   font-size: 18px;
-   font-weight: 600;
-   line-height: 1.5;
- }
-
- .third h4,
- span {
-   display: block;
-   color: #ffce48;
-   font-size: 20px;
-   font-weight: 700;
- }
-
+.third h4,
+.third span {
+    display: block;
+    color: #ffce48;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+}
+.text{
+  text-align: right;
+}
 
 
 
